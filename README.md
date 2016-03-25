@@ -12,3 +12,5 @@ For each of those 10 restaurants:
 7. It assumes a normal distribution if the restaurant has more than 100 total ratings, otherwise it assumes a student's t-distribution
 8. From (6) and (7) it calculates a 99% confidence interval for the mean
 9. It displays the restaurant name, mean, and confidence interval to the user
+
+The app is tested in OS X 10.11 and requires the installation of pip, brew, and the yelp, requests and lxml libraries. The commands in setup.sh can be used to install this software. After this, the app can be run with 'python restaurant_stats.py'.
